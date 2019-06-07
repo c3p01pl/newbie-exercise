@@ -23,4 +23,14 @@ public class HomePageSteps {
         this.homePage.checkFooterDisplay();
     }
 
+    @Given("User adds product to cart")
+    public void userAddsProductToCart() {
+        this.homePage.addProduct4ToCart();
+        this.homePage.productIsAddedToShoppingCart("Success: You have added Test product 4 to your shopping cart!");
+        this.homePage.goToShoppingCart();
+    }
+
+
+
+
 }

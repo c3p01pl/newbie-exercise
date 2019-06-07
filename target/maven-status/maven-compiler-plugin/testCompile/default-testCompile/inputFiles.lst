@@ -1,0 +1,11 @@
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/shoppingcart/ShoppingCartSteps.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/homepage/HomePageSteps.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/driver/Setup.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/initpage/InitPage.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/driver/TearDown.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/driver/Wait.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/homepage/HomePage.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/checkout/CheckoutPage.java
+/home/michalt/myprojects/newbie-exercise/src/test/java/com/exercise/test/ShoppingTest.java

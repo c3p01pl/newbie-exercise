@@ -11,7 +11,6 @@ public class Setup {
 
     @Before
     public void openWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "c:\\Program Files (x86)\\Google\\Chrome\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("start-maximized");
         driver = new ChromeDriver(chromeOptions);

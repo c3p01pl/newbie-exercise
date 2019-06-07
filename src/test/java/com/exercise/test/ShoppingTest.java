@@ -10,7 +10,9 @@ import org.junit.runner.RunWith;
         "json:target/cucumber_json_reports/home-page.json",
         "html:target/home-page-html"},
         glue = {"com.exercise.test.driver",
-                "com.exercise.test.homepage"})
+                "com.exercise.test.homepage",
+                "com.exercise.test.shoppingcart",
+                "com.exercise.test.checkout"})
 
 public class ShoppingTest {
 }

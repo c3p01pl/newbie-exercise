@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1343529144,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A user navigates to HomePage",
+            "match": {
+              "location": "HomePageSteps.aUserNavigatesToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-07T12:56:30.549Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1719720578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.openWebDriver()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Ordering product flow as guest",
+        "description": "",
+        "id": "shopping;ordering-product-flow-as-guest",
+        "after": [
+          {
+            "result": {
+              "duration": 75384573,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TearDown.quitDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1309728261,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User adds product to cart",
+            "match": {
+              "location": "HomePageSteps.userAddsProductToCart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 791073219,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verifies order",
+            "match": {
+              "location": "ShoppingCartSteps.userVerifiesOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6204477425,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User finalizes order",
+            "match": {
+              "location": "CheckoutPageSteps.userFinalizesOrder()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping",
+    "description": "  As a user I want to order a products",
+    "id": "shopping",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Shopping.feature",
+    "tags": []
+  }
+]
