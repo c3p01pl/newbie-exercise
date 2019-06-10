@@ -55,7 +55,6 @@ public class HomePage extends InitPage {
     }
 
     void productIsAddedToShoppingCart(String successText) {
-
         wait.forElementToBeDisplayed(5, this.SuccesAlertPopup, "Success alert popup");
         Assert.assertEquals(successText,this.SuccesAlertPopup.getText().replace("×","").trim());
     }

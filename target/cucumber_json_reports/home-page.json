@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1343529144,
+              "duration": 1344955707,
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-06-07T12:56:30.549Z",
+        "start_timestamp": "2019-06-10T07:49:03.588Z",
         "before": [
           {
             "result": {
-              "duration": 1719720578,
+              "duration": 1172394960,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 75384573,
+              "duration": 93058229,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1309728261,
+              "duration": 1370315052,
               "status": "passed"
             },
             "line": 9,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 791073219,
+              "duration": 879171353,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 6204477425,
+              "duration": 6901775080,
               "status": "passed"
             },
             "line": 11,
@@ -89,6 +89,18 @@
               "location": "CheckoutPageSteps.userFinalizesOrder()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628116195,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Product is ordered",
+            "match": {
+              "location": "CheckoutPageSteps.productIsOrdered()"
+            },
+            "keyword": "Then "
           }
         ]
       }

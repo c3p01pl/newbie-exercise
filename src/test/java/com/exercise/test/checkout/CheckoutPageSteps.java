@@ -1,6 +1,7 @@
 package com.exercise.test.checkout;
 
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 
 public class CheckoutPageSteps {
 
@@ -27,8 +28,10 @@ public class CheckoutPageSteps {
         this.checkoutPage.userClicksOnTermsAndConditons();
         this.checkoutPage.stepFiveContinue();
         this.checkoutPage.userConfirmsOrder();
-
-
     }
 
+    @Then("^Product is ordered")
+    public void productIsOrdered(){
+        this.checkoutPage.orderHasBeenPlaced();
+    }
 }

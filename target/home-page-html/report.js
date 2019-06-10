@@ -57,6 +57,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "Product is ordered",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CheckoutPageSteps.productIsOrdered()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

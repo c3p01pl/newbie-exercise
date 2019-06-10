@@ -84,6 +84,9 @@ public class CheckoutPage extends InitPage {
     @FindBy (xpath = "//*[@id=\"collapse-checkout-confirm\"]/div/div[1]/table/tfoot/tr[3]/td[2]")
     private WebElement TotalPriceCell;
 
+    @FindBy (xpath = "//*[@id=\"content\"]/h1")
+    private WebElement h1Header;
+
     CheckoutPage() { PageFactory.initElements(driver, this); }
 
     void fillFieldWithText(WebElement textfield, String text){
@@ -168,4 +171,7 @@ public class CheckoutPage extends InitPage {
         clickButton(agreeTermsAndConditionsRadioButton);
     }
 
+    void orderHasBeenPlaced(){
+        wait.forElementContainsText(10,this.h1Header,"Your order has been placed!","Main success message header.");
+    }
 }

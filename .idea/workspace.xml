@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbeca4c-333e-4d3f-8806-ba867932af3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/ShoppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/ShoppingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/Shopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/Shopping.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/automated-test-sample-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/automated-test-sample-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber_json_reports/home-page.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber_json_reports/home-page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/home-page-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/home-page-html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.exercise.test.ShoppingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.exercise.test.ShoppingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.exercise.test.ShoppingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.exercise.test.ShoppingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/test/checkout/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exercise/test/checkout/CheckoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/test/checkout/CheckoutPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exercise/test/checkout/CheckoutPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/test/driver/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exercise/test/driver/Wait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/feature/Shopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/feature/Shopping.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,18 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -57,15 +49,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="585">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Shopping.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -104,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/TearDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="450">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,41 +105,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="99" column="69" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
+            <state relative-caret-position="-47">
+              <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-                <element signature="e#3382#3383#0" expanded="true" />
-                <element signature="e#3437#3438#0" expanded="true" />
-                <element signature="e#3474#3475#0" expanded="true" />
-                <element signature="e#3621#3622#0" expanded="true" />
-                <element signature="e#3682#3683#0" expanded="true" />
-                <element signature="e#3625#3626#0" expanded="true" />
-                <element signature="e#3702#3703#0" expanded="true" />
-                <element signature="e#3727#3728#0" expanded="true" />
+                <element signature="e#3701#3702#0" expanded="true" />
                 <element signature="e#3764#3765#0" expanded="true" />
-                <element signature="e#3310#3311#0" expanded="true" />
-                <element signature="e#3366#3367#0" expanded="true" />
-                <element signature="e#3397#3398#0" expanded="true" />
-                <element signature="e#3432#3433#0" expanded="true" />
-                <element signature="e#3536#3537#0" expanded="true" />
-                <element signature="e#3598#3599#0" expanded="true" />
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3698#3699#0" expanded="true" />
-                <element signature="e#3743#3744#0" expanded="true" />
-                <element signature="e#3805#3806#0" expanded="true" />
-                <element signature="e#3850#3851#0" expanded="true" />
-                <element signature="e#3912#3913#0" expanded="true" />
-                <element signature="e#3957#3958#0" expanded="true" />
-                <element signature="e#4019#4020#0" expanded="true" />
-                <element signature="e#4041#4042#0" expanded="true" />
-                <element signature="e#4103#4104#0" expanded="true" />
-                <element signature="e#4992#4993#0" expanded="true" />
-                <element signature="e#5046#5047#0" expanded="true" />
+                <element signature="e#5306#5307#0" expanded="true" />
+                <element signature="e#5368#5369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,8 +138,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="510">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +160,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>after</find>
       <find>After</find>
       <find>div[2]/lab</find>
+      <find>after</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,20 +176,20 @@
         <option value="$PROJECT_DIR$/src/main/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.exercise.test/package-info.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/initpage/InitPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Setup.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/TearDown.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/checkoutPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/checkoutPageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/feature/Shopping.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCartSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/ShoppingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/Shopping.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/TearDown.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java" />
       </list>
     </option>
   </component>
@@ -223,16 +210,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="19" />
-    <option name="width" value="1920" />
-    <option name="height" value="1202" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1175" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +292,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,12 +345,6 @@
               <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber_json_reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,12 +352,6 @@
               <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="home-page-html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -384,20 +370,12 @@
               <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newbie-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newbie-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,10 +438,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1920" height="1202" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14407684" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1456777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -535,22 +513,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Setup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -569,28 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/TearDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/ShoppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -601,12 +555,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/homepage/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/TearDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Shopping.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/home-page-html/embedded0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/driver/Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3701#3702#0" expanded="true" />
+            <element signature="e#3764#3765#0" expanded="true" />
+            <element signature="e#5306#5307#0" expanded="true" />
+            <element signature="e#5368#5369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,57 +620,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Shopping.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/shoppingcart/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/home-page-html/embedded0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/test/checkout/CheckoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="99" column="69" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3382#3383#0" expanded="true" />
-            <element signature="e#3437#3438#0" expanded="true" />
-            <element signature="e#3474#3475#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
-            <element signature="e#3682#3683#0" expanded="true" />
-            <element signature="e#3625#3626#0" expanded="true" />
-            <element signature="e#3702#3703#0" expanded="true" />
-            <element signature="e#3727#3728#0" expanded="true" />
-            <element signature="e#3764#3765#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3366#3367#0" expanded="true" />
-            <element signature="e#3397#3398#0" expanded="true" />
-            <element signature="e#3432#3433#0" expanded="true" />
-            <element signature="e#3536#3537#0" expanded="true" />
-            <element signature="e#3598#3599#0" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3698#3699#0" expanded="true" />
-            <element signature="e#3743#3744#0" expanded="true" />
-            <element signature="e#3805#3806#0" expanded="true" />
-            <element signature="e#3850#3851#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
-            <element signature="e#3957#3958#0" expanded="true" />
-            <element signature="e#4019#4020#0" expanded="true" />
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4103#4104#0" expanded="true" />
-            <element signature="e#4992#4993#0" expanded="true" />
-            <element signature="e#5046#5047#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
           </folding>
         </state>
       </provider>

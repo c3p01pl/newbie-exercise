@@ -2,7 +2,6 @@ package com.exercise.test.shoppingcart;
 
 
 import com.exercise.test.initpage.InitPage;
-import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -33,10 +32,7 @@ public class ShoppingCart extends InitPage {
     }
 
     void productIsAddedIntoCart(String productName){
-        String displayedProductName = this.productNameInCart.getText();
-        System.out.println(displayedProductName);
-        System.out.println(productName);
-        Assert.assertEquals(productName.trim(),this.productNameInCart.getText().trim());
+        wait.forElementContainsText(5,this.productNameInCart,productName,"Product name");
     }
 
     void goToCheckout(){
